@@ -11,7 +11,7 @@ return [
     // 数据库名
     'database' => 'thinkcmf',
     // 用户名
-    'username' => 'admin',
+    'username' => 'thinkcmf',
     // 密码
     'password' => '123456',
     // 端口
