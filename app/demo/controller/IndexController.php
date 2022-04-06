@@ -17,8 +17,6 @@ class IndexController extends HomeBaseController
 {
     public function index()
     {
-        phpinfo();
-        die;
         $isPushed = \think\Queue::push("app\job\Test@fun", [
             'id' => 123,
         ], 'test_queue');
