@@ -11,9 +11,9 @@ return [
     // 数据库名
     'database' => 'thinkcmf',
     // 用户名
-    'username' => 'root',
+    'username' => 'admin',
     // 密码
-    'password' => 'z86075896z',
+    'password' => '123456',
     // 端口
     'hostport' => '3306',
     // 数据库编码默认采用utf8
