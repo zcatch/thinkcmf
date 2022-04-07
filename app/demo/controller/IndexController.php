@@ -17,11 +17,12 @@ class IndexController extends HomeBaseController
 {
     public function index()
     {
+        phpinfo();
+        die;
         $isPushed = \think\Queue::push("app\job\Test@fun", [
             'id' => 123,
         ], 'test_queue');
-        dump($isPushed);
-        die;
+        dump($isPushed);die;
         return $this->fetch(':index');
     }
 
