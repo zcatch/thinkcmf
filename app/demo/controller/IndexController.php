@@ -55,4 +55,9 @@ class IndexController extends HomeBaseController
     {
         return $this->fetch(':ws');
     }
+
+    public function code()
+    {
+        dump(1);die;
+    }
 }
