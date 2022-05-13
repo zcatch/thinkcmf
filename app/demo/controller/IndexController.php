@@ -58,6 +58,8 @@ class IndexController extends HomeBaseController
 
     public function code()
     {
-        dump(1);die;
+        $param = $this->request->param();
+        dump($param);
+        die;
     }
 }
