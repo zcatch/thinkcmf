@@ -27,7 +27,8 @@
         "thinkcmf/cmf-app": "~5.1.0",
         "thinkcmf/cmf-install": "~5.1.0",
         "thinkcmf/cmf-api": "~5.1.0",
-        "topthink/think-queue": "2.0.*"
+        "topthink/think-queue": "2.0.*",
+      "ext-amqp": "*"
     },
     "extra": {
         "think-path": "vendor/thinkphp",

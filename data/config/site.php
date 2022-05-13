@@ -11,4 +11,11 @@ return [
         'timeout'    => 0,// redis连接的超时时间
         'persistent' => false,// 是否是长连接
     ],
+    'mq'    => [
+        'host'     => '175.178.35.151',
+        'port'     => '5672',
+        'vhost'    => '测试',
+        'login'    => 'test',
+        'password' => '123456',
+    ],
 ];
